@@ -1,0 +1,65 @@
+nav {
+    background-color: $primary_color;
+    margin: $default_spacing / 2;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    // align-items: baseline;
+    border-bottom: 1px solid $primary_text;
+    padding-bottom: 5px;
+    font-weight: 300;
+
+    .name_and_logo{
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+
+        span{
+            padding: 0 ($default_spacing / 2);
+
+        }
+    }
+
+    .menu{
+        display: flex;
+        font-weight: 700;
+        font-size: small;
+
+        a{
+            padding: 0 ($default_spacing / 2);
+            text-decoration: none;
+            color: $primary_text;
+        }
+    }
+
+    button{
+        @include default_btn;
+        background-color: $primary_color;
+    }
+}
+section{
+    padding: $default_spacing 0;
+
+    h1{
+        line-height: $default_lineheight;
+        font-weight: 700;
+    }
+    p{
+        padding: $default_spacing 0;
+    }
+    button{
+        @include default_btn;
+        background-color: $buttons;
+        color: $primary_color;
+        padding: 5px ($default_spacing / 2);
+    }
+    .hero{
+        // background-image: url("/imgs/illustration-main.jpg");
+        // background-size: cover;
+        // display: flex;
+        // flex-grow: 1;
+        img{
+            width: 100%;
+        }
+    }
+}

@@ -1,1 +1,85 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #57402C;
+}
 
+nav {
+  background-color: #FFFFFF;
+  margin: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #57402C;
+  padding-bottom: 5px;
+  font-weight: 300;
+}
+nav .name_and_logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+nav .name_and_logo span {
+  padding: 0 10px;
+}
+nav .menu {
+  display: flex;
+  font-weight: 700;
+  font-size: small;
+}
+nav .menu a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #57402C;
+}
+nav button {
+  padding: 6.6666666667px;
+  border-radius: 5px;
+  color: #2D4690;
+  font-weight: 700;
+  border: 1px solid #2D4690;
+  font-size: small;
+  display: inline-flex;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+nav button img {
+  width: 20px;
+  margin-right: 5px;
+}
+nav button:hover {
+  background-color: #213369;
+}
+
+section {
+  padding: 20px 0;
+}
+section h1 {
+  line-height: 1.5;
+  font-weight: 700;
+}
+section p {
+  padding: 20px 0;
+}
+section button {
+  padding: 6.6666666667px;
+  border-radius: 5px;
+  color: #2D4690;
+  font-weight: 700;
+  border: 1px solid #2D4690;
+  font-size: small;
+  display: inline-flex;
+  align-items: center;
+  background-color: #2D4690;
+  color: #FFFFFF;
+  padding: 5px 10px;
+}
+section button img {
+  width: 20px;
+  margin-right: 5px;
+}
+section button:hover {
+  background-color: #213369;
+}
+section .hero img {
+  width: 100%;
+}
