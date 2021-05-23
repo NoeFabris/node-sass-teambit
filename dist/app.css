@@ -81,48 +81,63 @@ section .hero img {
   width: 100%;
 }
 
-main {
+.main_pt1_rosa {
   background-color: #FFE7D2;
 }
-main section {
+.main_pt1_rosa section {
   padding: 0 0;
 }
-main section section {
+.main_pt1_rosa section section {
   padding: 20px 0 40px 0;
 }
-main h5 {
+.main_pt1_rosa h5 {
   display: flex;
   justify-content: center;
   font-weight: 700;
   padding: 20px 0;
 }
-main .main_mini_imgs {
+.main_pt1_rosa .main_mini_imgs {
   display: flex;
   justify-content: space-around;
 }
-main .main_mini_imgs img {
+.main_pt1_rosa .main_mini_imgs img {
   display: block;
   width: 50%;
   height: 200px;
 }
-main .main_mini_imgs p {
+.main_pt1_rosa .main_mini_imgs p {
   display: flex;
   justify-content: center;
 }
-main .img_before_main {
+.main_pt1_rosa .img_before_main {
   padding: 20px 0;
   display: flex;
   justify-content: center;
 }
-main .img_before_main img {
+.main_pt1_rosa .img_before_main img {
   display: block;
   width: 75%;
 }
-main .img_before_main p {
+.main_pt1_rosa .img_before_main p {
   display: flex;
   justify-content: center;
   font-weight: 700;
 }
-main .before {
+.main_pt1_rosa .before {
   border-bottom: 1px solid #57402C;
+}
+
+.main_pt2_white .big_screenshot img {
+  width: 100%;
+}
+.main_pt3_rosa {
+  background-color: #FFE7D2;
+}
+.main_pt3_rosa h3 {
+  font-weight: 700;
+}
+.main_pt3_rosa .box {
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 5px;
 }
