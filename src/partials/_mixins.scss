@@ -14,7 +14,9 @@
     &:hover{
         background-color: darken($buttons, 10%);
     }
+}
 
-
-
+@mixin flex_center{
+    display: flex;
+    justify-content: center;
 }

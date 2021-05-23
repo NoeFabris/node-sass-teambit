@@ -1,0 +1,44 @@
+main{
+    background-color: $secondary_color;
+    section{
+        padding: 0 0;
+        section{
+           padding: $default_spacing 0 ($default_spacing * 2) 0 ;
+        }
+    }
+    h5{
+        @include flex_center;
+        font-weight: 700;
+        padding: $default_spacing 0;
+    }
+    .main_mini_imgs{
+        display: flex;
+        justify-content: space-around;
+        // flex-direction: column;
+        img{
+            display: block;
+            width: 50%;
+            height: 200px;
+        }
+        p{
+            @include flex_center;
+        }
+    }
+    .img_before_main{
+        padding: $default_spacing 0;
+        @include flex_center;
+
+        img{
+            display: block;
+            width: 75%;
+        }
+        p{
+            @include flex_center;
+            font-weight: 700
+        }
+    }
+    .before{
+        border-bottom: 1px solid $primary_text;
+        
+    }
+}

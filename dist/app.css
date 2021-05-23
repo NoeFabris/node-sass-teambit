@@ -18,9 +18,6 @@ nav .name_and_logo {
   flex-grow: 1;
   align-items: center;
 }
-nav .name_and_logo span {
-  padding: 0 10px;
-}
 nav .menu {
   display: flex;
   font-weight: 700;
@@ -82,4 +79,50 @@ section button:hover {
 }
 section .hero img {
   width: 100%;
+}
+
+main {
+  background-color: #FFE7D2;
+}
+main section {
+  padding: 0 0;
+}
+main section section {
+  padding: 20px 0 40px 0;
+}
+main h5 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  padding: 20px 0;
+}
+main .main_mini_imgs {
+  display: flex;
+  justify-content: space-around;
+}
+main .main_mini_imgs img {
+  display: block;
+  width: 50%;
+  height: 200px;
+}
+main .main_mini_imgs p {
+  display: flex;
+  justify-content: center;
+}
+main .img_before_main {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+main .img_before_main img {
+  display: block;
+  width: 75%;
+}
+main .img_before_main p {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+main .before {
+  border-bottom: 1px solid #57402C;
 }
