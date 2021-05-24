@@ -1,6 +1,6 @@
 * {
   font-family: "Noto Sans JP", sans-serif;
-  color: #57402C;
+  color: #0E14EE;
 }
 
 nav {
@@ -9,7 +9,7 @@ nav {
   margin: 10px 0;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #57402C;
+  border-bottom: 1px solid #0E14EE;
   padding-bottom: 5px;
   font-weight: 300;
 }
@@ -26,7 +26,7 @@ nav .menu {
 nav .menu a {
   padding: 0 10px;
   text-decoration: none;
-  color: #57402C;
+  color: #0E14EE;
 }
 nav button {
   padding: 6.6666666667px;
@@ -82,7 +82,7 @@ section .hero img {
 }
 
 .main_pt1_rosa {
-  background-color: #FFE7D2;
+  background-color: #0414B3;
 }
 .main_pt1_rosa section {
   padding: 0 0;
@@ -124,14 +124,14 @@ section .hero img {
   font-weight: 700;
 }
 .main_pt1_rosa .before {
-  border-bottom: 1px solid #57402C;
+  border-bottom: 1px solid #0E14EE;
 }
 
 .main_pt2_white .big_screenshot img {
   width: 100%;
 }
 .main_pt3_rosa {
-  background-color: #FFE7D2;
+  background-color: #0414B3;
 }
 .main_pt3_rosa h3 {
   font-weight: 700;
